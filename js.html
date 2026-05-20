@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p id="demo"></p>
+
+    <script>
+        document.getElementById("demo").innerHTML = "Hello JavaScript!";
+    </script>
+
+    <br>
+
+    <script>
+        document.write("This is a simple JavaScript code.");
+        document.write("<br>");
+        document.write(5 + 10);
+    </script>
+
+    <br>
+
+    <button onclick="alert('Button clicked!')">Click Me</button>
+
+    <br><br>
+
+    <img id="bulb"
+         src="image_off.jpg"
+         alt="bulb"
+         width="100"
+         height="100">
+
+    <br><br>
+
+    <button type="button"
+        onclick="document.getElementById('bulb').src='image_on.jpg'">
+        Turn On
+    </button>
+
+    <button type="button"
+        onclick="document.getElementById('bulb').src='image_off.jpg'">
+        Turn Off
+    </button>
+
+</body>
+</html>
